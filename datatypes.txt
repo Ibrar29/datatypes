@@ -1,0 +1,51 @@
+// <!-- data type defined the type of value that a variable can hold -->
+// there are two types of data type 
+// 1) primitive data type (string, number, boolean,null,undefined,symbol)
+// 2) object data types (object,array,A date)
+Number 
+var myNum = 10;
+ console.log(myNum);
+// string
+ var myName ="ibrar";
+ console.log(myName);
+//boolean
+ var isNumber = true;
+ console.log(isNumber);
+ //undefined
+var ibra;
+console.log(ibra);
+//null
+var criCket = null;
+console.log(criCket);
+console.log(typeof criCket);
+// convert string to number we add + in datatypes
+var myNum = "10";
+ console.log(myNum);
+ console.log(typeof +myNum);
+// //  //convert number to string
+ let str = 10;
+ console.log(str);
+ console.log(typeof String(str));
+
+ var num = 22;
+ console.log(num);
+var str = "ibrar ";
+var num = "bilal"
+console.log(str + num);
+
+var isnNum=true;
+console.log(isnNum);
+var num = null;
+console.log(num);
+console.log(typeof num);
+
+var i = "10";
+//console.log( i);
+console.log(typeof +i);
+ 
+var i = 10;
+console.log(typeof String( i));
+const arr = [1, 2, 3, 4];
+for (let i = 0; i < arr.length; i++) {
+    console.log(arr[i]);
+}
